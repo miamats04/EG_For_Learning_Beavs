@@ -244,18 +244,18 @@ He is also the Sound Designer, which brings the actions of the game together, an
 * Week 9 3/7: Update data flow documentation now that most methods should be clearly established.   
 * Week 10 3/14: Finalize and publish data flow documentation to the GitHub repository. 
 
-**Jacob** is the lead artist, which is essential to the playability of the game. Without art, virtually nobody would play the game, and it would meet none of its use case scenarios. Jacob is suited to this role because he has creative inspiration regarding the subject of the game, and a willingness to learn these new skills for the sake of the project. 
+**Jacob** is the lead artist, which is essential to the playability of the game. Without art, virtually nobody would play the game, and it would meet none of its use case scenarios. Jacob is suited to this role because he has creative inspiration regarding the subject of the game, an interest in pixel art, and a willingness to learn these new skills for the sake of the project. 
 
 **Jacob’s** Schedule 
 
-* Week 3 1/24:   
-* Week 4 1/31:   
-* Week 5 2/7:  
-* Week 6 2/14:  
-* Week 7 2/21:  
-* Week 8 2/28:  
-* Week 9 3/7:  
-* Week 10 3/14:
+* Week 3 1/24: Generate first character sprite concept and potentially primary design. Make a List of major in-game items/scenes that will need to be generated. Begin and set up the basic structure of the game map. Create placeholder assets, items, and UI to allow functionality testing.  
+* Week 4 1/31: Finalize character design and create 1st half of known assets and game items including NPC’s. Refine game map. Set up a test area to allow work on character interaction and times.  
+* Week 5 2/7: Work on text box style/display allowing for text use and implementation into game. Adjust the game map to further reflect any design choices made or changed on it. Create 2nd half of in game assets, items, and NPC’s.  
+* Week 6 2/14: Finish all previous work and add detail and design to make products more visually polished. Adjust the game map to reflect changes and feedback. Create basic structure for first half of minigames  
+* Week 7 2/21: Advance final design for half of the environment and levels for mini-games. Begin base design for 2nd half of environments/ minigames.  
+* Week 8 2/28 : Adjust any details of environments/levels for all mini-games. Advance to final design of 2nd half of environments/ minigames  
+* Week 9 3/7: Finalize design of environments and add additional assets based on work requirements. Begin final artistic details and requirements to make the game more aesthetically pleasing.  
+* Week 10 3/14: Finish final artistic details and requirements to make the game more aesthetically polished.
 
 **Guillermo** is the Network Designer, which will handle the process of making the game multiplayer capable. Without a dedicated Network Designer, the process of making the game multiplayer would be restricted to multiple users on the same device, which would vastly limit the use cases of our game. Additionally, the role has the responsibility of making any single player code function in multiplayer, which allows the other members of the team more time to develop the core features of the game. Guillermo is a good fit for this role because he has interest in learning network processes, and he has shown the willingness and ability to learn this over the quarter. 
 
@@ -266,22 +266,22 @@ He is also the Sound Designer, which brings the actions of the game together, an
 * Week 5 2/7: Fully implement basic multiplayer interactions (e.g., players can tag or interact with each other).  
 * Week 6 2/14: Implement and test methods to synchronize sound effects for multiplayer actions. Add functionality to handle player disconnection gracefully.  
 * Week 7 2/21: Introduce NPCs with basic behavior synchronized across all clients. Ensure NPC reactions to players are consistent across the network.  
-* Week 8 2/28: Finalize multiplayer gameplay mechanics, ensuring all features (movement, interactions, NPCs) are functioning smoothly Conduct playtesting with a small group to identify bugs and gather feedback.  
-* Week 9 3/7:Perform integration tests for all multiplayer features to ensure they work together seamlessly. Update documentation to reflect the finalized multiplayer implementation.  
-* Week 10 3/14:Finalize and polish all multiplayer features.Publish updated documentation to GitHub and prepare the multiplayer feature for the game’s release.
+* Week 8 2/28: Finalize multiplayer gameplay mechanics, ensuring all features (movement, interactions, NPCs) are functioning smoothly conduct playtesting with a small group to identify bugs and gather feedback.  
+* Week 9 3/7: Perform integration tests for all multiplayer features to ensure they work together seamlessly. Update documentation to reflect the finalized multiplayer implementation.  
+* Week 10 3/14: Finalize and polish all multiplayer features. Publish updated documentation to GitHub and prepare the multiplayer feature for the game’s release.
 
 **Mike** is the Head developer, which is necessary to organize the other developers and make sure game development continues smoothly throughout the quarter. He will be the most involved in the building blocks of our code, which will allow the less experienced developers an ability to contribute and work on the project. Mike is suited for this role because he has previous experience working with game development, and specifically the tools and scripting language we will be using for the project. 
 
 **Mike’s** Schedule 
 
-* Week 3 1/24: Finish the player instance, the controls, and basic movement. Finish sketch of menu and in game UI. Finish setting up the resource file system so fellow developers know where to place and organize files in the Godot section.  
+* Week 3 1/24: Finish the player instance, the controls, and basic movement. Finish sketch of menu and in game UI. Finish setting up the resource file system, so fellow developers know where to place and organize files in the Godot section.  
 * Week 4 1/31: Finish game start menu UI and functionality, also finish basic save/load/quit system that stores player location and minor progress markers  
 * Week 5 2/7: Finish scene management implementation including connections to game system objects and all related components necessary to complete functionality. Also finish basic NPC navigational and interact system.   
 * Week 6 2/14: Finish inventory basics, main game UI.  
 * Week 7 2/21: Half of the total number of minigames are now finished.  
 * Week 8 2/28: All primary requirements for the game system objects are complete, including proper system loading and saving, minigames and NPC interaction, inventory, and any other large overarching game mechanics. All minigames should be finished and complete at this point.   
 * Week 9 3/7: Testing phase in which I’ll be collaborating with different portions of the team to repair bugs and issues identified during testing connecting to the main game system and individual components. We are also checking the executables at this point to ensure the game runs after being built. All developed tests will PASS at this point.  
-* Week 10 3/14: Game development now moves towards post production where I finish an Itch.io landing page, ensuring the executable is working and running on multiple machines. We also finish any promotional or documentational materials at this point. 
+* Week 10 3/14: Game development now moves towards post-production where I finish an Itch.io landing page, ensuring the executable is working and running on multiple machines. We also finish any promotional or documentation materials at this point. 
 
 **Ryan** is the lead content researcher. This role is required as it is responsible for the facts and information about beavers which will inform players as they play the game. As this is one of the main purposes of the game, and vastly expands its usage scenarios, it is important that a lead researcher be present. Ryan is suitable for this role because he has done previous research projects at OSU and is willing to do the work required to learn and inform about beavers and the environment which surrounds them. 
 
