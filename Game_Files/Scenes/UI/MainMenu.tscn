@@ -1,0 +1,161 @@
+[gd_scene load_steps=3 format=3 uid="uid://3s80payn7ur0"]
+
+[ext_resource type="Texture2D" uid="uid://bqp3sp2uwp6k2" path="res://Game_Files/Assets/UI/TempButton.png" id="1_bs6ey"]
+[ext_resource type="Texture2D" uid="uid://bv5vd6fo2svc4" path="res://Game_Files/Assets/UI/TempButtonHover.png" id="2_uqj2k"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="StartMenu" type="Control" parent="."]
+layout_mode = 1
+anchor_left = 0.5
+anchor_top = 0.435
+anchor_right = 0.5
+anchor_bottom = 0.435
+offset_left = -320.0
+offset_top = -369.8
+offset_right = 320.0
+offset_bottom = 370.2
+
+[node name="NewText" type="RichTextLabel" parent="StartMenu"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.128
+anchor_right = 0.5
+anchor_bottom = 0.128
+offset_left = -160.0
+offset_top = -94.72
+offset_right = 160.0
+offset_bottom = 95.28
+theme_override_font_sizes/normal_font_size = 45
+bbcode_enabled = true
+text = "
+[center]NEW GAME[/center]"
+
+[node name="NewButton" type="TextureButton" parent="StartMenu/NewText"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.584
+anchor_right = 0.5
+anchor_bottom = 0.584
+offset_left = -160.0
+offset_top = -90.96
+offset_right = 160.0
+offset_bottom = 69.04
+texture_normal = ExtResource("1_bs6ey")
+texture_hover = ExtResource("2_uqj2k")
+
+[node name="LoadText" type="RichTextLabel" parent="StartMenu"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.372
+anchor_right = 0.5
+anchor_bottom = 0.372
+offset_left = -160.0
+offset_top = -95.28
+offset_right = 160.0
+offset_bottom = 94.72
+theme_override_font_sizes/normal_font_size = 45
+bbcode_enabled = true
+text = "
+[center]LOAD GAME[/center]"
+
+[node name="LoadButton" type="TextureButton" parent="StartMenu/LoadText"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.584
+anchor_right = 0.5
+anchor_bottom = 0.584
+offset_left = -160.0
+offset_top = -90.96
+offset_right = 160.0
+offset_bottom = 69.04
+texture_normal = ExtResource("1_bs6ey")
+texture_hover = ExtResource("2_uqj2k")
+
+[node name="OnlineText" type="RichTextLabel" parent="StartMenu"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.614
+anchor_right = 0.5
+anchor_bottom = 0.614
+offset_left = -160.0
+offset_top = -95.36
+offset_right = 160.0
+offset_bottom = 94.64
+theme_override_font_sizes/normal_font_size = 45
+bbcode_enabled = true
+text = "
+[center]ONLINE[/center]"
+
+[node name="OnlineButton" type="TextureButton" parent="StartMenu/OnlineText"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.584
+anchor_right = 0.5
+anchor_bottom = 0.584
+offset_left = -160.0
+offset_top = -90.96
+offset_right = 160.0
+offset_bottom = 69.04
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("1_bs6ey")
+texture_hover = ExtResource("2_uqj2k")
+
+[node name="QuitText" type="RichTextLabel" parent="StartMenu"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.853
+anchor_right = 0.5
+anchor_bottom = 0.853
+offset_left = -160.0
+offset_top = -95.22
+offset_right = 160.0
+offset_bottom = 94.78
+theme_override_font_sizes/normal_font_size = 45
+bbcode_enabled = true
+text = "
+[center]QUIT[/center]"
+
+[node name="QuitButton" type="TextureButton" parent="StartMenu/QuitText"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.584
+anchor_right = 0.5
+anchor_bottom = 0.584
+offset_left = -160.0
+offset_top = -90.96
+offset_right = 160.0
+offset_bottom = 69.04
+texture_normal = ExtResource("1_bs6ey")
+texture_hover = ExtResource("2_uqj2k")
+
+[node name="OptionsMenu" type="Control" parent="."]
+visible = false
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="MultiplayerMenu" type="Control" parent="."]
+visible = false
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
